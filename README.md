@@ -2,6 +2,24 @@
 
 - Examplos de códigos para o banco de dados não relacional MongoDB.
 
+## Instalação no Ubunto 20.04 LTS
+
+### Atualização e dependências 
+```sudo apt update```
+```sudo apt install dirmngr gnupg apt-transport-https ca-certificates software-properties-common```
+
+### Download
+```wget -qO - https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -```
+
+### Adicionando o repositório
+```echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list```
+
+### Atualizando o repositório
+```sudo apt update```
+
+### Instalando
+```sudo apt install mongodb-org```
+
 ## Comandos
 
 - Para dar "start" no server, execute o comando  ```mongod```, se você está utilizando o sistema operacional windows execute ```mongod.exe```.
