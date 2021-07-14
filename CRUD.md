@@ -1,11 +1,11 @@
 ``` javascript
-db \
+db 
 
-use video \
+use video 
 
-db.movies \
+db.movies 
 
-db \
+db 
 
  movie = {"title" : "The Goonies",
 "director" : "Richard Donner",
