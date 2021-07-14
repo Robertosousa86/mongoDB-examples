@@ -39,3 +39,8 @@
   `sudo service mongod restart`
 
 - Você pode parar a execução do mongoDB de maneira segura digitando o comando `Ctrl-C` no mesmo terminal em que o servidor está rodando.
+
+- Para saber qual banco de dados está sendo utilizando digite `db` e tecle enter.
+
+- O comando `use` serve para alternar entre os banco de dados; \
+  Obs: Se o banco de dados em questão não existir o comando `use` cria um novo banco de dados como nome que foi declarado.
