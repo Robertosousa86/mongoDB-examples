@@ -7,14 +7,14 @@ O MongoDB tem suporte para vários tipos de dados, os tipos mais usados são:
 {"x" : null}
 ```
 
-- **Boolean**
+- **Boolean**\
   O tipo boolean pode ser usado para valores **true**(verdadeiro) ou **false**(falso);
 
 ```javascript
 {"x" : true}
 ```
 
-- **Number**
+- **Number**\
   Por padão o shell do MongoDB utiliza números de 64-bits com ponto flutuante(**float**), eles podem ser representados da seguinte forma:
   
   ```javascript
@@ -27,19 +27,19 @@ O MongoDB tem suporte para vários tipos de dados, os tipos mais usados são:
   {"x" : NumberInt("3")}
   {"x" : NumberLong("3")}
   ```
-- **String**
+- **String**\
   Qualquer caracter UTF-8 pode ser representado pelo tipo **string**:
   
   ```javascript
   {"x" : "Juliana"}
   ```
-- **Date**
+- **Date**\
   O MongoDB armazena datas como valores integer de 64-bits tendo ínicio pelo padrão Unix epoch(1 de janeiro de 1970, 00:00). O fuso horário não é armazenado:
   
   ```javascript
   {"x" : new Date()}
   ```
-- **Regular Expression**
+- **Regular Expression**\
   Queries podem usar a sintax do Javascript para _Regular expressions_(**regex**):
   
   ```javascript
@@ -52,21 +52,21 @@ O MongoDB tem suporte para vários tipos de dados, os tipos mais usados são:
   {"x": ["a","b","c"]}
   {"x": [1, 2, 3]}
   ```
-- **Embedded document(Documento incorporado)**
+- **Embedded document(Documento incorporado)**\
   Documentos podem conter outros documentos incorporados como valores de um documento pai:
   
   ```javascript
   {"x" : {"foo" : "bar"}}
   ```
 
-- **Object ID**
+- **Object ID**\
   Um _object ID_ é um ID de 12-byte para documentos:
   
   ```javascript
   {"x" : ObjectId()}
   ```
 
-- **Code**
+- **Code**\
   É possivel salvar códigos nativos do Javascript em queries e documentos:
 
 ```javascript
@@ -75,6 +75,6 @@ O MongoDB tem suporte para vários tipos de dados, os tipos mais usados são:
 }}
 ```
 
-- **Binary data**
+- **Binary data**\
   Os dados binários são uma sequência de bytes não arbitrtários.
   Não podem ser manipulados a partir do shell do MongoDB, Eles não a única maneira de salvar strings não UTF-8 no banco de dados.
