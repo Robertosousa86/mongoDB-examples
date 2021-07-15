@@ -77,4 +77,4 @@ O MongoDB tem suporte para vários tipos de dados, os tipos mais usados são:
 
 - **Binary data**\
   Os dados binários são uma sequência de bytes não arbitrtários.
-  Não podem ser manipulados a partir do shell do MongoDB, Eles não a única maneira de salvar strings não UTF-8 no banco de dados.
+  Não podem ser manipulados a partir do shell do MongoDB, eles são a única maneira de salvar strings não UTF-8 no banco de dados.
