@@ -1,6 +1,6 @@
 O MongoDB tem suporte para vários tipos de dados, os tipos mais usados são:
 
-- **Null**
+- **Null**\
   O tipo Nulo pode ser usado para representar tanto um valor nulo como um campo não existente:
 
 ```javascript
