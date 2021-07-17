@@ -13,8 +13,8 @@ db
 
 db.movies.insertOne(movie)
 db.movies.find().pretty()
-db.findOne()
+db.movies.findOne()
 db.movies.updateOne({title: "The Goonies"}, {$set : {reviews: []}})
-db.find().pretty()
+db.movies.find().pretty()
 db.movies.deleteOne({title : "The Goonies"})
 ```
