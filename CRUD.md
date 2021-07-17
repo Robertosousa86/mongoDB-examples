@@ -11,7 +11,7 @@ db
 "director" : "Richard Donner",
 "year" : 1985 } 
 
-db.insertOne(movie)
+db.movies.insertOne(movie)
 db.movies.find().pretty()
 db.findOne()
 db.movies.updateOne({title: "The Goonies"}, {$set : {reviews: []}})

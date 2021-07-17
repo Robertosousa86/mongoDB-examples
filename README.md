@@ -38,6 +38,8 @@
   e em seguida:
   `sudo service mongod restart`
 
+- Você pode iniciar o terminal do MongoDB sem se conectar ao mongod, para isso execute `mongo --nodb`
+
 - Você pode parar a execução do mongoDB de maneira segura digitando o comando `Ctrl-C` no mesmo terminal em que o servidor está rodando.
 
 - Para saber qual banco de dados está sendo utilizando digite `db` e tecle enter.
