@@ -14,3 +14,16 @@ db.movies.insertOne({
 ```
 
 O método `insertOne` íra adicionar uma chave "_id" ao documento, caso você não houver adicionado anteriormente, e salvará as informações no banco de dados.
+
+## Inserindo vários documentos ao mesmo tempo
+
+Podemos adicionar mais de um documento à uma coleção ao mesmo tempo utilizando o método ```insertMany```. Esse método permite que um array de documentos seja passado ao banco de dados, o que torna a inserção de dados mais eficiente.
+
+```javascript
+db.movies.insertMany([
+  {"title" : "Ghostbusters"},
+  {"title" : "Indiana Jones and The Last Crusade"},
+  {"title" : "Terminator 2: Judgment Day"}
+]);
+```
+// continuar...
