@@ -6,7 +6,7 @@
 
 ### Atualização e dependências
 
-`sudo apt update`\
+`sudo apt update`
 
 `sudo apt install dirmngr gnupg apt-transport-https ca-certificates software-properties-common`
 
